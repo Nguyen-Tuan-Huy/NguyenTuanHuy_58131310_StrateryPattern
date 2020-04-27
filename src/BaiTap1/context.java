@@ -4,12 +4,11 @@
  * and open the template in the editor.
  */
 package BaiTap1;
-
 /**
  *
  * @author zasx1
  */
-public class context {
+public abstract class context {
     Tinh tinhToan;
 
     public void setTinhToan(Tinh tinhToan) {
@@ -20,7 +19,5 @@ public class context {
         return tinhToan.tinh(a, b);
     }
     
-    public String display(float a, float b){
-        return "Ket qua: " + tinh(a, b);
-    }
+    public abstract String display(float a, float b);
 }

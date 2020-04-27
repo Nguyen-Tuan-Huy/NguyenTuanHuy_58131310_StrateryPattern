@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BaiTap1;
-
-import BaiTap1.Tinh;
+package BaiTap3;
 
 /**
  *
  * @author zasx1
  */
-public class Cong implements Tinh{
+public class main {
 
-    @Override
-    public float tinh(float a, float b) {
-        return a + b;
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
     
 }

@@ -5,17 +5,15 @@
  */
 package BaiTap1;
 
-import BaiTap1.Tinh;
-
 /**
  *
  * @author zasx1
  */
-public class Cong implements Tinh{
+public class pheptinh1 extends context{
 
     @Override
-    public float tinh(float a, float b) {
-        return a + b;
+    public String display(float a, float b) {
+        return "Ket qua phep tinh 1: " + tinh(a, b);
     }
     
 }

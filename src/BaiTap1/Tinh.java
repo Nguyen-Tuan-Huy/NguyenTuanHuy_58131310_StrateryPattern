@@ -10,5 +10,5 @@ package BaiTap1;
  * @author zasx1
  */
 public interface Tinh {
-    public float tinh(float a, float b);
+    float tinh(float a, float b);
 }

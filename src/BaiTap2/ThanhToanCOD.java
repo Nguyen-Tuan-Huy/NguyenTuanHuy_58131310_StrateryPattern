@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BaiTap1;
-
-import BaiTap1.Tinh;
+package BaiTap2;
 
 /**
  *
  * @author zasx1
  */
-public class Cong implements Tinh{
+public class ThanhToanCOD implements iThanhToan{
 
     @Override
-    public float tinh(float a, float b) {
-        return a + b;
+    public double thanhToan(int tienHang) {
+        if(tienHang > 2000000)
+            return tienHang - tienHang * 0.02;
+        else
+            return tienHang;
     }
     
 }

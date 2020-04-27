@@ -3,19 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BaiTap1;
-
-import BaiTap1.Tinh;
+package BaiTap3;
 
 /**
  *
  * @author zasx1
  */
-public class Cong implements Tinh{
-
-    @Override
-    public float tinh(float a, float b) {
-        return a + b;
-    }
-    
+public interface ISoSanh {
+//    int soSanh(T o1, T o2);
 }
